@@ -25,17 +25,6 @@
 				}
 			},
 			{
-				name: 'monaco-css',
-				contrib: 'vs/language/css/monaco.contribution',
-				modulePrefix: 'vs/language/css',
-				paths: {
-					src: '/monaco-css/release/dev',
-					'npm/dev': 'node_modules/monaco-css/release/dev',
-					'npm/min': 'node_modules/monaco-css/release/min',
-					esm: 'node_modules/monaco-css/release/esm',
-				}
-			},
-			{
 				name: 'monaco-json',
 				contrib: 'vs/language/json/monaco.contribution',
 				modulePrefix: 'vs/language/json',
@@ -44,18 +33,6 @@
 					'npm/dev': 'node_modules/monaco-json/release/dev',
 					'npm/min': 'node_modules/monaco-json/release/min',
 					esm: 'node_modules/monaco-json/release/esm',
-				}
-			},
-			{
-				name: 'monaco-html',
-				contrib: 'vs/language/html/monaco.contribution',
-				modulePrefix: 'vs/language/html',
-				thirdPartyNotices: 'node_modules/monaco-html/ThirdPartyNotices.txt',
-				paths: {
-					src: '/monaco-html/release/dev',
-					'npm/dev': 'node_modules/monaco-html/release/dev',
-					'npm/min': 'node_modules/monaco-html/release/min',
-					esm: 'node_modules/monaco-html/release/esm',
 				}
 			},
 			{
